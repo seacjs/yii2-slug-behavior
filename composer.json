@@ -1,7 +1,7 @@
 {
     "name": "seacjs/yii2-slug-behavior",
     "type": "yii2-extension",
-    "description": "Yii 2 Slug Behavior.",
+    "description": "Yii 2 Slug Behavior",
     "keywords": ["slug", "yii2", "extension", "behavior", "seacjs"],
     "license": "Apache License 2.0",
     "require": {
