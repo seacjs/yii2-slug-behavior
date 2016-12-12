@@ -1,16 +1,21 @@
 {
     "name": "seacjs/yii2-slug-behavior",
+    "description": "yii2 slug behavior",
     "type": "yii2-extension",
-    "description": "Yii 2 Slug Behavior",
-    "keywords": ["slug", "yii2", "extension", "behavior", "seacjs"],
-    "license": "Apache License 2.0",
+    "keywords": ["yii2","extension","slug","behavior","seacjs"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Evgeny",
+            "email": "sea-cjs@yandex.ru"
+        }
+    ],
     "require": {
-        "yiisoft/yii2": "*",
-        "2amigos/yii2-transliterator-helper": "*"
+        "yiisoft/yii2": "*"
     },
     "autoload": {
         "psr-4": {
-            "seacjs\\behavior\\": ""
+            "seacjs\\behaviors\\": ""
         }
     }
 }
