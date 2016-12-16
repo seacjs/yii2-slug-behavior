@@ -1,6 +1,7 @@
 <?php
 
 namespace seacjs\behaviors;
+
 use yii\helpers\Inflector;
 use yii\behaviors\SluggableBehavior;
 use dosamigos\transliterator\TransliteratorHelper;
