@@ -29,3 +29,20 @@ public function behaviors()
     ];
 }
 ```
+
+or use another class Sluggable, work with transliteration
+
+Sluggable extends SluggableBehavior
+
+```php
+public function behaviors()
+{
+    return [
+        'slug' => [
+            'class' => 'seacjs\behaviors\Sluggable',
+            'slugAttribute' => 'slug',
+            'attribute' => 'name',
+        ]
+    ];
+}
+```
